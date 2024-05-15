@@ -14,7 +14,7 @@ function Slider() {
     
       
 
-    <div  id="FAQ" className=' mx-auto max-w-sm  md:max-w-3xl '>
+    <div id="Services"  className=' mx-auto max-w-sm  md:max-w-3xl '>
     <Fade 
     onChange={function noRefCheck(){}}
     onStartChange={function noRefCheck(){}}
