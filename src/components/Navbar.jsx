@@ -13,19 +13,19 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
       <div className="md:hidden md:flex-row block absolute top-16 w-full left-0 right-0 z-30 bg-gray-100 shadow-gray-400 shadow-md">
         <ul>
           <BrowserRouter>
-            <Link spy={true} smooth={true} to="Home">
+            <Link spy={true}  className="cursor-pointer"  smooth={true} to="Home">
               <li className="my-2 py-4 border-b flex items-center hover:bg-red-500 hover:rounded">HOME</li>
             </Link>
-            <Link spy={true} smooth={true} to="About">
+            <Link spy={true}  className="cursor-pointer"  smooth={true} to="About">
               <li className="my-2 py-4 border-b hover:bg-red-500 hover:rounded">About</li>
             </Link>
-            <Link spy={true} smooth={true} to="Services">
+            <Link spy={true}  className="cursor-pointer"  smooth={true} to="Services">
               <li className="my-2 py-4 border-b hover:bg-red-500 hover:rounded">Services</li>
             </Link>
-            <Link spy={true} smooth={true} to="FAQ">
+            <Link spy={true}  className="cursor-pointer"  smooth={true} to="FAQ">
               <li className="my-2 py-4 border-b hover:bg-red-500 hover:rounded">FAQ</li>
             </Link>
-            <Link spy={true} smooth={true} to="Contact">
+            <Link spy={true}  className="cursor-pointer"  smooth={true} to="Contact">
               <li className="py-4 border-b hover:bg-red-600 hover:rounded">Contact</li>
             </Link>
           </BrowserRouter>
@@ -53,19 +53,19 @@ const Navbar = ({ toggleDarkMode, darkMode }) => {
               {isOpen ? <RxCross2 size={30} /> : <RxHamburgerMenu size={30} />}
             </button>
             <ul className="lg:flex gap-x-8 font-bold hidden sm:block">
-              <Link spy={true} smooth={true} to="Home">
-                <li>Home</li>
+              <Link className="cursor-pointer" spy={true}    smooth={true} to="Home">
+                <li >Home</li>
               </Link>
-              <Link spy={true} smooth={true} to="About">
+              <Link  spy={true}  className="cursor-pointer"  smooth={true} to="About">
                 <li>About</li>
               </Link>
-              <Link spy={true} smooth={true} to="Services">
+              <Link spy={true}  className="cursor-pointer"  smooth={true} to="Services">
                 <li>Services</li>
               </Link>
-              <Link spy={true} smooth={true} to="FAQ">
+              <Link spy={true}  className="cursor-pointer"  smooth={true} to="FAQ">
                 <li>FAQ</li>
               </Link>
-              <Link spy={true} smooth={true} to="Contact">
+              <Link spy={true}  className="cursor-pointer"  smooth={true} to="Contact">
                 <li>Contact</li>
               </Link>
               <li>
