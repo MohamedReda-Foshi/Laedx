@@ -45,14 +45,7 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **[User authentication and authorization]**
 - **Drak mode**
-- **[Book travel packages]**
-- **[Rent a place for customers ]**
-- **[Cancel bookings]**
-- **[View booking places on the map]**
-- **[Like favorite destinations]**
-- **[View the added rents ]**
 
 
 
