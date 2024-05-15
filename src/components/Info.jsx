@@ -3,7 +3,7 @@ import Ncard from "./Ncard";
 
 function Info() {
   return (
-    <div className="flex flex-col	" id="Services">
+    <div id="About" className="flex flex-col	" >
 
       <div className=" px-3">
         <div className="text-center">

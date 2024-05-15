@@ -3,9 +3,9 @@ import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 function Allcard() {
   return (
-    <div className="py-3">
+    <div id="FAQ" className="p-3">
       
-        <Slide
+        <Slide 
           slidesToScroll={1}
           slidesToShow={1}
           indicators={true}

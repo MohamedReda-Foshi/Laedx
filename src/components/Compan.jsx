@@ -1,7 +1,7 @@
 
 function Compan() {
   return (
-    <div id="About" className="bg-[#f6f6f6] -150px flex-col dark:bg-stone-900 ">
+    <div  className="bg-[#f6f6f6] -150px flex-col dark:bg-stone-900 ">
 
 
 

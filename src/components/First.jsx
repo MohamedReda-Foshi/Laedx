@@ -3,8 +3,9 @@ import Button from "./Button"
 function First() {
   return (
 
+    
 
-    <div id="Home"className="flex flex-col-reverse pt-[88px]  md:flex-row  md:justify-center" >
+    <div id="Home" className="flex flex-col-reverse pt-[88px]  md:flex-row  md:justify-center" >
 
     <div className="pt-0 p-10  flex-col ">
 
@@ -38,6 +39,7 @@ function First() {
 
     </div>
   )
+  
 }
 
 export default First
