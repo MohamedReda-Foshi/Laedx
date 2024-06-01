@@ -46,6 +46,10 @@
 
 
 - **Drak mode**
+- **Company Overview**
+-**Services Offered**
+-**Contact Information**
+-**Testimonials**
 
 
 
@@ -68,13 +72,14 @@ To get a local copy up and running, follow these steps.
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/ridabensalem/tour-trek.git
+git clone git@github.com:MohamedReda-Foshi/Laedx.git
  Example commands:
 
 ```sh
   cd my-folder
 https://github.com/ridabensalem/tour-trek.git```
 ```
+cd Laedx
 
 ### Install
 
@@ -95,8 +100,9 @@ npx prisma db push
 To run tests for this project
 
 ```shell
-cd testing/
- npm test 'tour-trek.test.js'
+
+npm start
+
 ```
 ### Start Project 
 
@@ -133,7 +139,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Thank you Hamza EL ASSRI for help me in my first project using react 
+Thank you<a name="Hamza EL ASSRI"> Hamza EL ASSRI </a> for help me in my first project using react 
+and <a name="Mohamed Khalifa BOUTAHIR">Mohamed Khalifa BOUTAHIR</a> for give me this opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
